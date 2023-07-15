@@ -1,0 +1,193 @@
+body {
+    /* height: 100vh; */
+    /* width: 300%; */
+    /* с размерами не опр. */
+}
+
+.circle {
+    width: 65px;
+    height: 120px;
+    background: grey;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    /* animation-play-state: paused; */
+    z-index: 2;
+}
+
+
+@keyframes circle {
+    0% {
+        left: 0;
+        top: 60%;
+    }
+
+    100% {
+        left: 42.7%;
+        top: 31%;
+        background: azure;
+
+    }
+}
+
+.rectangleyellow {
+    width: 70px;
+    height: 150px;
+    background: yellow;
+    border: 2px solid black;
+    position: absolute;
+    animation-name: rectangleyellow;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    /* animation-play-state: paused; */
+    z-index: 3;
+
+}
+
+@keyframes rectangleyellow {
+    0% {
+        left: 20%;
+        top: 90%;
+    }
+
+    100% {
+        left: 41%;
+        top: 56.5%;
+        background-color: rgba(0, 255, 255, 0.456);
+    }
+}
+
+.rectanglegrey {
+    width: 50px;
+    height: 200px;
+    background: grey;
+    position: absolute;
+    animation-name: rectanglegrey;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    /* animation-play-state: paused; */
+    z-index: 3;
+}
+
+@keyframes rectanglegrey {
+    0% {
+        left: 50%;
+        top: 100%;
+    }
+
+    100% {
+        left: 46.5%;
+        top: 60%;
+        background-color: blueviolet;
+    }
+}
+
+.rectangleorange {
+    width: 150px;
+    height: 300px;
+    background: orange;
+    position: absolute;
+    animation-name: rectangleorange;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    /* animation-play-state: paused; */
+}
+
+@keyframes rectangleorange {
+    0% {
+        right: 10%;
+        top: 35%;
+    }
+
+    100% {
+        right: 50%;
+        top: 50%;
+        background-color: brown;
+    }
+}
+
+.rectanglered {
+    width: 20px;
+    height: 120px;
+    background: red;
+    position: absolute;
+    animation-name: rectanglered;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    /* animation-play-state: paused; */
+}
+
+@keyframes rectanglered {
+    0% {
+        right: 40%;
+        top: 0%;
+    }
+
+    100% {
+        right: 50.5%;
+        top: 20%;
+        background-color: blue;
+    }
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 230px solid red;
+    position: absolute;
+    animation-name: triangle;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    /* animation-play-state: paused; */
+}
+
+@keyframes triangle {
+    0% {
+        left: 0%;
+        top: 0%;
+    }
+
+    100% {
+        left: 37%;
+        top: 18.2%;
+    }
+}
+
+/* .homename {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 40px;
+    background: wheat;
+    box-shadow: inset 0 25px skyblue;
+    position: absolute;
+    animation-name: homename;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+
+@keyframes homename {
+    0% {
+        right: 40%;
+        top: 0%;
+    }
+
+    100% {
+        right: 50.5%;
+        top: 20%;
+        background-color: blue;
+    }
+} */
